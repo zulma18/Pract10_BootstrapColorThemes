@@ -1,0 +1,113 @@
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 600px; /* Ancho maximo del contenedor */
+    margin: 0 auto;   /* Centrar el contenedor en la pagina */
+    padding: 20px;  /* Espaciado interno del contenedor */
+}
+
+/* Estilo para el primer parrafo */
+.textoUno {
+    font-size: 18px;  /*Tamaño de la fuente */
+    font-weight: bold;  /* Texto en negrita */
+    color: #f0652e;
+}
+
+/* Estilo para el segundo parrafo */
+.texto {
+    font-size: 16px;  /* Tamaño de fuente */
+    color: #c240ce;
+}
+
+/* Estilo para el contenido dentro del div */
+.contenido {
+    background-color: #00ff62;  /* Color de fondo */
+    color: #fff;  /* Color de texto */
+    padding: 10px;  /* Espaciado interno */
+    font-weight: bold;  /*Texto en negrita */ 
+
+}
+
+/* Estilo para el div con borde */
+.border-Contenido {
+    background-color: #ffee00;
+    color: #0f0c0c;
+    padding: 10px; /*Espacio interno */
+    font-weight: bold;  /* Texto en negrita */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/* Estilo para la tabla principal */
+.tabla-Principal {
+    width: 100%;  /*Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse;  /*Combinar bordes de celdas */
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-Principal th {
+    background-color: #0a4044;   /*Color de fondo en el encabezado */
+    color: #fff;   /* Color del texto en el encabezado */
+    text-align: center;
+    font-weight: bold;   /* Texto en negrita */
+    padding: 10px;  /*Espaciado interno */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/* Estilo para las celdas de datos */
+.tabla-Principal td {
+    text-align: center;  /* Alineacion del texto en el centro */
+    padding: 5px;  /* Espaciado interno */
+    background-color: #b5eca7;  /* Color de fondo en el encabezado */
+    color: #1a1616;  /* Color del texto en el encabezado */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/* Estilo para el boton */
+.boton {
+    background-color: #007BFF;  /* Color de fondo del boton */
+    color: #fff;  /* Color del texto del boton */
+    padding: 10px 20px;  /* Espaciado interno */
+    border: none;  /* Sin borde */
+    cursor: pointer;  /* Cambio de cursor al pasar por encima */
+}
+
+/* Estilo para el boton con borde */
+.borde-Boton {
+    background-color: transparent;  /* Fondo transparente */
+    color: #f86969;  /* Color del texto del boton */
+    padding: 10px 20px;  /* Espaciado interno */
+    cursor: pointer;  /* Cambio de cursor al pasar por encima */
+}
+
+/* Estilo para la tabla */
+.table-primary {
+    background-color: #8a5042;  /* Color de fondo primario */
+    color: #0e0a0a;  /* Color del texto en la tabla */
+    font-weight: bold;  /* Texto en negrita */
+}
+
+/* Estilo para las filas impares */
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #ec6d6d;  /* Color de fondo para filas impares */
+    text-align: center;
+}
+
+.boton {
+    background-color: #ca23e0;
+}
+
+.borde-boton {
+    background-color: transparent;
+    color: #1a0c0b;
+    border: 2px solid #e21d1d;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.enlace {
+    color: #4708db;
+    text-decoration: none;
+}
+
+.link-primary:hover {
+    text-decoration: underline;
+}
